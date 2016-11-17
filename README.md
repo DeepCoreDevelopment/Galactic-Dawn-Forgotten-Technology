@@ -1,4 +1,4 @@
-# New Dawn - Forgotten Technology
+# Galactic Dawn - Forgotten Technology
 
 This mod allows you to build the high tech buildings which you can find on worlds owned by Fallen Empires.
 In the vanilla game the technology to make these buildings is 'long forgotten' but if the Fallen Empires were once mighty enough to figure this stuff out, why can't you?
