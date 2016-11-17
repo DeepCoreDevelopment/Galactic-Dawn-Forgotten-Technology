@@ -1,0 +1,45 @@
+@tier1cost = 8000
+
+@tier1weight = 30
+
+gd_ft_dark_matter_extraction = {
+	icon = "gd_ft_dark_matter_extraction"
+
+	cost = @tier1cost
+	area = physics
+	tier = 4
+	category = field_manipulation
+	is_rare = yes
+
+	prerequisites = {"tech_antimatter_power" "tech_power_plant_4"}
+
+	weight = @tier1weight
+}
+
+gd_ft_mineral_fabrication = {
+	icon = "gd_ft_mineral_creation"
+
+	cost = @tier1cost
+	area = engineering
+	tier = 4
+	category = industry
+	is_rare = yes
+
+	prerequisites = {"tech_mining_network_4"}
+
+	weight = @tier1weight
+}
+
+gd_ft_nutrient_manufacturing = {
+	icon = "gd_ft_nutrient_manufacturing"
+
+	cost = @tier1cost
+	area = society
+	tier = 4
+	category = biology
+	is_rare = yes
+
+	prerequisites = {"tech_nano_vitality_crops" ""}
+
+	weight = @tier1weight
+}
