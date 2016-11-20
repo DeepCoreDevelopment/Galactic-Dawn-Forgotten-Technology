@@ -1,0 +1,17 @@
+@tier6cost = 8000
+
+@tier6weight = 30
+
+gd_ft_tech_dark_matter_extraction = {
+	icon = "gd_ft_dark_matter_extraction"
+
+	cost = @tier6cost
+	area = physics
+	tier = 4
+	category = field_manipulation
+	is_rare = yes
+
+	prerequisites = {"tech_antimatter_power" "tech_power_plant_4"}
+
+	weight = @tier6weight
+}

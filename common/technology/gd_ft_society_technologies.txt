@@ -1,0 +1,17 @@
+@tier6cost = 8000
+
+@tier6weight = 30
+
+gd_ft_tech_nutrient_manufacturing = {
+	icon = "gd_ft_nutrient_manufacturing"
+
+	cost = @tier6cost
+	area = society
+	tier = 4
+	category = biology
+	is_rare = yes
+
+	prerequisites = {"tech_nano_vitality_crops"}
+
+	weight = @tier6weight
+}

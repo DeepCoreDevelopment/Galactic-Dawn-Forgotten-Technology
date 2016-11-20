@@ -1,0 +1,17 @@
+@tier6cost = 8000
+
+@tier6weight = 30
+
+gd_ft_tech_mineral_fabrication = {
+	icon = "gd_ft_mineral_fabrication"
+
+	cost = @tier6cost
+	area = engineering
+	tier = 4
+	category = industry
+	is_rare = yes
+
+	prerequisites = {"tech_mining_network_4"}
+
+	weight = @tier6weight
+}

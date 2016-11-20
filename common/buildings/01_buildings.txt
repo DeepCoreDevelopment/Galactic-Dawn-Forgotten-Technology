@@ -1,0 +1,154 @@
+########################################
+##### Vanilla buildings overwrites #####
+########################################
+
+@b4time = 180
+@b4cost = 150
+@b4effect = 5
+@b4upkeep = 2.5
+
+@b5time = 180
+@b5cost = 180
+@b5effect = 8
+@b5upkeep = 3
+
+building_power_plant_5 = {
+	base_buildtime = @b5time
+	is_listed = no
+
+	cost = {
+		minerals = @b4cost
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	produced_resources = {
+		energy = 8
+	}
+	upgrades = {
+		gd_ft_building_dark_matter_power_plant
+	}
+
+	prerequisites = {
+		"tech_power_plant_4"
+	}
+}
+
+betharian_power_plant_4 = {
+	base_buildtime = @b4time
+	is_listed = no
+	icon = "building_power_plant_1"
+
+	cost = {
+		minerals = @b4cost
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	produced_resources = {
+		energy = 12
+	}
+
+	required_resources = {
+		sr_betharian = 1
+	}
+	upgrades = {
+		gd_ft_building_betharian_dark_matter_power_plant
+	}
+
+	prerequisites = {
+			"tech_power_plant_4"
+	}
+}
+
+building_hydroponics_farm_5 = {
+	base_buildtime = @b5time
+	is_listed = no
+
+	cost = {
+		minerals = @b5cost
+	}
+
+    allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	produced_resources = {
+		food = @b5effect
+	}
+
+	required_resources = {
+		energy = @b5upkeep
+	}
+	upgrades = {
+		gd_ft_building_agri_processing_complex
+	}
+
+	prerequisites = {
+		"tech_nano_vitality_crops"
+	}
+}
+
+building_mining_network_5 = {
+	base_buildtime = @b5time
+	is_listed = no
+
+	cost = {
+		minerals = @b5cost
+	}
+
+    allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	produced_resources = {
+		minerals = @b5effect
+	}
+
+	required_resources = {
+		energy = @b5upkeep
+	}
+	upgrades = {
+		gd_ft_building_ancient_factory
+	}
+
+	prerequisites = {
+		"tech_mining_network_4"
+	}
+}

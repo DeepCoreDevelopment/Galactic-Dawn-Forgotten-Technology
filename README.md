@@ -6,8 +6,10 @@ In addition to being able to build these extra powerfull buildings, you are now 
 
 ## Features
 - Three previously unconstructable buildings
-- Three new technologies, one for each building
+- Three new technologies, unlocking the secrets to these previously locked buildings.
+- A Tier 5 betharian stone power plant so betharian stone doesn't become useless.
 - Tier 5 buildings can be constructed on any planet.
+
 
 ### Buildings
 
@@ -21,6 +23,22 @@ Costs
 
 - 1000 Minerals
 - 50 Influence
+
+**Betharian Dark Matter Power Plant**
+
+Output
+
+- 17 Energy Credits
+
+Costs
+
+- 1000 Minerals
+- 50 Influence
+
+Maintenance
+
+- 1 Betharian stone
+
 
 **Autonomous Fabricators**
 
@@ -56,6 +74,7 @@ Maintenance
 Dark Matter Extraction
 
 - Unlocks Dark Matter Power Plant
+- Unlocks Betharian Dark Matter Power Plant
 
 > Given more time to research dark matter, our physicists believe we can extract small amounts of dark matter from cosmic radiation and turn it into energy.
 

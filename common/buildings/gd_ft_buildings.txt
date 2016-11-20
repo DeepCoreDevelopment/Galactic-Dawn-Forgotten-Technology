@@ -1,5 +1,6 @@
-gd_ft_ancient_factory = {
+gd_ft_building_ancient_factory = {
 	icon = "gd_ft_ancient_factory"
+	is_listed = no
 	base_buildtime = 500
 
 	cost = {
@@ -16,7 +17,7 @@ gd_ft_ancient_factory = {
 	}
 
 	prerequisites = {
-		"gd_ft_mineral_fabrication"
+		"gd_ft_tech_mineral_fabrication"
 	}
 
 	allow = {
@@ -30,22 +31,11 @@ gd_ft_ancient_factory = {
 			}
 		}
 	}
-
-	ai_special_building = yes
-
-	ai_weight = {
-		factor = 1000
-		modifier = {
-			factor = 0
-			from = {
-				sector_controlled = yes
-			}
-		}
-	}
 }
 
-gd_ft_dark_matter_power_plant = {
+gd_ft_building_dark_matter_power_plant = {
 	icon = "gd_ft_dark_matter_power_plant"
+	is_listed = no
 	base_buildtime = 500
 
 	cost = {
@@ -58,7 +48,7 @@ gd_ft_dark_matter_power_plant = {
 	}
 
 	prerequisites = {
-		"gd_ft_dark_matter_extraction"
+		"gd_ft_tech_dark_matter_extraction"
 	}
 
 	allow = {
@@ -72,22 +62,46 @@ gd_ft_dark_matter_power_plant = {
 			}
 		}
 	}
+}
 
-	ai_special_building = yes
+gd_ft_building_betharian_dark_matter_power_plant = {
+	icon = "gd_ft_betharian_dark_matter_power_plant"
+	is_listed = no
+	base_buildtime = 500
 
-	ai_weight = {
-		factor = 1000
-		modifier = {
-			factor = 0
-			from = {
-				sector_controlled = yes
+	cost = {
+		minerals = 1000
+		influence = 50
+	}
+
+	produced_resources = {
+		energy = 17
+	}
+
+	required_resources = {
+		sr_betharian = 1
+	}
+
+	prerequisites = {
+		"gd_ft_tech_dark_matter_extraction"
+	}
+
+	allow = {
+		custom_tooltip_fail = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
 			}
 		}
 	}
 }
 
-gd_ft_agri_processing_complex = {
+gd_ft_building_agri_processing_complex = {
 	icon = "gd_ft_agri_processing_complex"
+	is_listed = no
 	base_buildtime = 500
 
 	cost = {
@@ -104,7 +118,7 @@ gd_ft_agri_processing_complex = {
 	}
 
 	prerequisites = {
-		"gd_ft_nutrient_manufacturing"
+		"gd_ft_tech_nutrient_manufacturing"
 	}
 
 	allow = {
@@ -115,18 +129,6 @@ gd_ft_agri_processing_complex = {
 					has_building = "building_capital_2"
 					has_building = "building_capital_3"
 				}
-			}
-		}
-	}
-
-	ai_special_building = yes
-
-	ai_weight = {
-		factor = 1000
-		modifier = {
-			factor = 0
-			from = {
-				sector_controlled = yes
 			}
 		}
 	}
