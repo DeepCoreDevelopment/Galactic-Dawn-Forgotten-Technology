@@ -35,7 +35,7 @@ Costs
 - 1000 Minerals
 - 50 Influence
 
-Maintenance
+Local resource required
 
 - 1 Betharian stone
 

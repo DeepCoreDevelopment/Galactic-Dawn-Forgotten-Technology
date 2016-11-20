@@ -69,9 +69,6 @@ betharian_power_plant_4 = {
 		energy = 12
 	}
 
-	required_resources = {
-		sr_betharian = 1
-	}
 	upgrades = {
 		gd_ft_building_betharian_dark_matter_power_plant
 	}

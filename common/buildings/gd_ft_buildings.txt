@@ -78,10 +78,6 @@ gd_ft_building_betharian_dark_matter_power_plant = {
 		energy = 17
 	}
 
-	required_resources = {
-		sr_betharian = 1
-	}
-
 	prerequisites = {
 		"gd_ft_tech_dark_matter_extraction"
 	}
