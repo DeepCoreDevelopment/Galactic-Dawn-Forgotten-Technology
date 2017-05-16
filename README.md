@@ -2,7 +2,6 @@
 
 This mod allows you to build the high tech buildings which you can find on worlds owned by Fallen Empires.
 In the vanilla game the technology to make these buildings is 'long forgotten' but if the Fallen Empires were once mighty enough to figure this stuff out, why can't you?
-In addition to being able to build these extra powerfull buildings, you are now also able to construct tier 5 mines, power plants and farms on non-capital worlds. 
 
 ## Features
 - Three previously unconstructable buildings
