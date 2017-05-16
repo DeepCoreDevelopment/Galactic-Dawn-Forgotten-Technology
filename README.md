@@ -7,9 +7,7 @@ In addition to being able to build these extra powerfull buildings, you are now 
 ## Features
 - Three previously unconstructable buildings
 - Three new technologies, unlocking the secrets to these previously locked buildings.
-- A Tier 5 betharian stone power plant so betharian stone doesn't become useless.
-- Tier 5 buildings can be constructed on any planet.
-
+- One new building
 
 ### Buildings
 
@@ -22,7 +20,7 @@ Output
 Costs
 
 - 1000 Minerals
-- 50 Influence
+- 20 Influence
 
 **Betharian Dark Matter Power Plant**
 
@@ -33,7 +31,7 @@ Output
 Costs
 
 - 1000 Minerals
-- 50 Influence
+- 20 Influence
 
 Local resource required
 
@@ -49,7 +47,7 @@ Output
 Costs
 
 - 1000 Minerals
-- 50 Influence
+- 20 Influence
 
 Maintenance
 
@@ -64,7 +62,7 @@ Output
 Costs
 
 - 1000 Minerals
-- 50 Influence
+- 20 Influence
 
 Maintenance
 
